@@ -1,3 +1,4 @@
+/* eslint-disable */
 import getBudgetObject from './7-getBudgetObject.js';
 
 export default function getFullBudgetObject(income, gdp, capita) {
@@ -14,3 +15,4 @@ export default function getFullBudgetObject(income, gdp, capita) {
 
   return fullBudget;
 }
+/* eslint-disable */

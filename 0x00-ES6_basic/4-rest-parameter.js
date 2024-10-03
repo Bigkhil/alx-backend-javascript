@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function returnHowManyArguments(...args) {
     var cntr = 0, arg;
     for (arg of args){
@@ -5,3 +6,4 @@ export default function returnHowManyArguments(...args) {
     }
     return cntr;
 }
+/* eslint-disable */

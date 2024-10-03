@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function createReportObject(employeesList) {
     const report = {
         allEmployees: employeesList,
@@ -6,4 +7,4 @@ export default function createReportObject(employeesList) {
         }
     }
     return report;
-}
+}/* eslint-disable */

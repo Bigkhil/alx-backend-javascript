@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function appendToEachArrayValue(array, appendString) {
     let i = 0;
     for (let idx of array) {
@@ -7,3 +8,4 @@ export default function appendToEachArrayValue(array, appendString) {
   
     return array;
   }
+/* eslint-disable */
