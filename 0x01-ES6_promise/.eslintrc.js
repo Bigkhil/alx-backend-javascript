@@ -18,13 +18,8 @@ module.exports = {
     },
     plugins: ['jest'],
     rules: {
-      'no-console': 'off',
-      'no-shadow': 'off',
-      'no-restricted-syntax': [
-        'error',
-        'LabeledStatement',
-        'WithStatement',
-      ],
+      "no-warning-comments": "off",
+      "no-console": "off",
     },
     overrides:[
       {
