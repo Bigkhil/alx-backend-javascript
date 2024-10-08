@@ -16,7 +16,7 @@ export default class HolbertonCourse {
     return this._length;
   }
 
-  get studnets() {
+  get students() {
     return this._students;
   }
 
