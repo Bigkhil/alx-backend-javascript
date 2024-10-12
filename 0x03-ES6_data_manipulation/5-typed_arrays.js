@@ -4,7 +4,7 @@ export default function createInt8TypedArray(length, position, val) {
   try {
     arr[position] = val;
   } catch (error) {
-    throw Error('Position outside range');
+    throw error;
   }
   const dataView = new DataView(buffer);
   return dataView;
